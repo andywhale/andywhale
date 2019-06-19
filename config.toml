@@ -1,0 +1,49 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "andy whale"
+theme = "mediumish"
+copyright = "Andy Whale 2019"
+
+[params]
+  description ="posts about something & nothing"
+
+[params.author]
+  name = "Andy Whale"
+  thumbnail = "images/glasses-icon.png"
+  description = "Development lead at Numiko, Game Dev enthusiast."
+
+[params.index]
+  picture = "images/glasses-icon.png"
+  title = "andy whale"
+  subtitle = "Development lead at Numiko (Symfony, PHP, Drupal), Game Dev enthusiast (Unity, C#), problem solver, questioner of things, juggler, dad ..."
+  mdtext = '''
+### web developer
+By day I write websites for Numiko where we endeavour to work for clients
+inspiring social good; built mostly using the PHP stack.
+### aspiring game developer
+By night I build games in Unity and C# and then bin them 4 - 6 weeks
+later due to the ideas becoming either unplayable or ludicrously complex.
+### struggling guitarist
+I bought an electric guitar and love to "play", but my three year
+old son is already superior, so it really is just a hobby.
+'''
+  alertbar = false
+
+[params.social]
+  github = "andywhale"
+  linkedin = "andywhale"
+  twitter = "andywhalephoto"
+  instagram = "andywhalephoto"
+  drupal = "andy_w"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 200
+    url = "/"
