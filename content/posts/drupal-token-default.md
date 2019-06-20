@@ -1,10 +1,11 @@
 ---
 title: "Token Default"
-description: "Drupal Module"
+description: "Allows a token to be given a default value in the event of no value being found"
 date: 2019-04-05T13:21:43+01:00
 image: "images/drupal-token-default.png"
 draft: false
 type: "post"
+tags: ["drupal", "module", "php"]
 ---
 Allows a token to be given a default value in the event of no value being found.
 
