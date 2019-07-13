@@ -17,9 +17,24 @@
             {{ with .Site.Params.index.subtitle }}
             <h3 class="index-sub">{{ . }}</h3>
             {{ end }}
-            {{ with .Site.Params.index.mdtext }}
-            <h6 class="index-text">{{ . | markdownify }}</h6>
-            {{ end }}
+            <hr>
+            <div class="row">
+                {{ with .Site.Params.index.mdtext }}
+                <div class="col-4">
+                    {{ . | markdownify }}
+                </div>
+                {{ end }}
+                {{ with .Site.Params.index.mdtext2 }}
+                <div class="col-4">
+                    {{ . | markdownify }}
+                </div>
+                {{ end }}
+                {{ with .Site.Params.index.mdtext3 }}
+                <div class="col-4">
+                    {{ . | markdownify }}
+                </div>
+                {{ end }}
+            </div>
         </section>
         
         <hr />

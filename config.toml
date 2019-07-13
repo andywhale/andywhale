@@ -20,9 +20,13 @@ copyright = "Andy Whale 2019"
 ### web developer
 By day I write websites for Numiko where we endeavour to work for clients
 inspiring social good; built mostly using the PHP stack.
+'''
+  mdtext2 = '''
 ### aspiring game developer
 By night I build games in Unity and C# and then bin them 4 - 6 weeks
 later due to the ideas becoming either unplayable or ludicrously complex.
+'''
+  mdtext3 = '''
 ### struggling guitarist
 I bought an electric guitar and love to "play", but my three year
 old son is already superior, so it really is just a hobby.
