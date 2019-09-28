@@ -20,11 +20,18 @@ copyright = "Andy Whale 2019"
 ### web developer
 By day I write websites for Numiko where we endeavour to work for clients
 inspiring social good; built mostly using the PHP stack.
+<div class="">
+  <a class="badge badge-success badge-pill badge-large" href="/tags/numiko/">numiko</a>
+  <a class="badge badge-success badge-pill badge-large" href="/tags/drupalmodule/">drupalmodule</a>
+</div>
 '''
   mdtext2 = '''
 ### aspiring game developer
 By night I build games in Unity and C# and then bin them 4 - 6 weeks
 later due to the ideas becoming either unplayable or ludicrously complex.
+<div class="">
+  <a class="badge badge-success badge-pill badge-large" href="/tags/gamedev/">gamedev</a>
+</div>
 '''
   mdtext3 = '''
 ### published photographer
