@@ -5,7 +5,7 @@ date: 2019-05-05T13:21:43+01:00
 image: "images/drupal-webform-digests.png"
 draft: false
 type: "post"
-tags: ["drupal", "module", "webform", "php"]
+tags: ["drupal", "drupalmodule", "webform", "php"]
 ---
 This module adds a daily digest email for webform submissions. These are
 customised per webform and can optionally have conditions attached to
