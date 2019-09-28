@@ -1,8 +1,8 @@
 ---
 title: "C4 & Raw Secret Life of Students"
-description: "Numiko: Back end development"
+description: "Social media / phone content integration to facilitate this television format"
 date: 2017-03-01T13:21:43+01:00
-draft: true
+draft: false
 image: "images/secret-life-of-students.jpg"
 type: "post"
 tags: ["numiko", "php", "zend", "iphone", "bash", "solr", "c4"]

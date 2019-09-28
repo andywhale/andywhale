@@ -1,6 +1,6 @@
 ---
 title: "C4 Easter Eggs Live"
-description: "Numiko: Back end development lead"
+description: "Social media integration for this live broadcast cached to S3 for performance during transmission"
 date: 2013-03-01T13:21:43+01:00
 draft: false
 image: "images/c4eastereggslive.jpg"
