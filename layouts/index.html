@@ -11,6 +11,8 @@
             <h1 class="index-title">{{ .Site.Params.index.title }}</h1>
         </header>
         
+        {{- partial "_shared/social.html" . -}}
+        
         <hr />
 
         <section class="text-center">
@@ -43,10 +45,9 @@
           <div class="row listrecent">
             {{ range first 6 .Site.RegularPages }} {{- partial "list-partials/postbox.html" . -}} {{ end }}
           </div>
-          <a href="/posts/" class="btn">All posts</a>
+          <a href="/posts/" class="btn btn-success">All posts</a>
         </section>
     </div>
-    {{- partial "_shared/social.html" . -}}
     {{ if isset .Site.Params.index "alertbar" }}
     	{{ if .Site.Params.index.alertbar }}
             {{- partial "_shared/alertbar.html" . -}}
