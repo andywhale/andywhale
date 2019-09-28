@@ -20,17 +20,17 @@
             <hr>
             <div class="row">
                 {{ with .Site.Params.index.mdtext }}
-                <div class="col-4">
+                <div class="col-sm">
                     {{ . | markdownify }}
                 </div>
                 {{ end }}
                 {{ with .Site.Params.index.mdtext2 }}
-                <div class="col-4">
+                <div class="col-sm">
                     {{ . | markdownify }}
                 </div>
                 {{ end }}
                 {{ with .Site.Params.index.mdtext3 }}
-                <div class="col-4">
+                <div class="col-sm">
                     {{ . | markdownify }}
                 </div>
                 {{ end }}
@@ -41,7 +41,7 @@
 
         <section class="text-center">
           <div class="row listrecent">
-            {{ range first 6 .Pages }} {{- partial "list-partials/postbox.html" . -}} {{ end }}
+            {{ range first 6 .Site.RegularPages }} {{- partial "list-partials/postbox.html" . -}} {{ end }}
           </div>
           <a href="/posts/" class="btn">All posts</a>
         </section>

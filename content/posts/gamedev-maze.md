@@ -2,7 +2,7 @@
 title: "Locate the Teleport"
 description: "A space set VR game that evolved from a 2D maze game"
 date: 2019-06-28T13:21:43+01:00
-image: "images/spacevr.png"
+image: "images/spacevr.jpg"
 draft: false
 type: "post"
 tags: ["gamedev", "unity", "csharp"]
