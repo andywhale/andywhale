@@ -11,6 +11,8 @@ I have always wanted to create a 2D puzzle game, and this is my first foray into
 
 At this point the prototype has become pretty complex to play, and so may well be consigned to a virtual dusty drawer, but enjoyable to make.
 
+Disclaimer: This game is currently pretty unstable, so it may possibly crash your browser, it hasn't crashed mine yet, but I just wanted to make you aware - use at your own risk.
+
 You can try it yourself at https://vortex.andywhale.co.uk
 
 {{< youtube 8O3-V1EhyFI >}}
