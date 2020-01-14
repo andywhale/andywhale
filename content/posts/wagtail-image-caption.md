@@ -8,7 +8,7 @@ type: "post"
 tags: ["wagtail", "tailwind", "python", "numiko"]
 ---
 
-Disclaimer; I am a big fan on Wagtail but I regularaly have issues finding appropriate documentation, so most of the information posted here is available in the docs or within the code. This article is more of a reference for when I forget it all over again.
+Disclaimer; I am a big fan of Wagtail but I regularaly have issues finding appropriate documentation, so most of the information posted here is available in the docs or within the code. This article is more of a reference for when I forget it all over again.
 
 ## Adding a caption to an image
 
@@ -105,6 +105,7 @@ register_image_format(
 ```
 
 This could come in useful for anybody trying to display image captions within a WYSIWYG. As stated all of these steps come directly from the docs, specifically these pages:
+
 * [Custom Image Models](https://docs.wagtail.io/en/latest/advanced_topics/images/custom_image_model.html)
 * [Rich Text Image Formats](https://docs.wagtail.io/en/latest/advanced_topics/customisation/page_editing_interface.html#rich-text-image-formats)
 * [Changing Rich Text Representation](https://docs.wagtail.io/en/latest/advanced_topics/images/changing_rich_text_representation.html)
