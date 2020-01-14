@@ -23,6 +23,7 @@ inspiring social good; built mostly using the PHP stack.
 <div class="">
   <a class="badge badge-success badge-pill badge-large" href="/tags/numiko/">numiko</a>
   <a class="badge badge-success badge-pill badge-large" href="/tags/drupalmodule/">drupalmodule</a>
+  <a class="badge badge-success badge-pill badge-large" href="/tags/wagtail/">wagtail</a>
 </div>
 '''
   mdtext2 = '''
