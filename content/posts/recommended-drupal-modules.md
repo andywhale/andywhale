@@ -1,7 +1,7 @@
 ---
-title: "Drupal modules I almost always start with"
+title: "Recommended Drupal modules"
 description: "There are a number of drupal 8 modules which I almsot always start a project with, this is by no means an exhaustive list but this is a few of the go to choices."
-date: 2020-08-29T13:18:30+01:00
+date: 2020-08-27T13:18:30+01:00
 image: "images/drupal-node-boolean.png"
 draft: false
 type: "post"
