@@ -9,4 +9,6 @@ tags: ["numiko", "php", "drupal", "solr"]
 ---
 A flexible Drupal 8 build where content is king, and therefore content editing needed to be simple and yet feature rich. As the lead back-end developer the content migration from the old (very content rich site) proved the biggest challenge.
 
+You can find out more about this build here: https://numiko.com/our-work-public-policy-institutions/kings-fund/
+
 https://www.kingsfund.org.uk
