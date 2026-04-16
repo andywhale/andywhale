@@ -1,4 +1,4 @@
--
+---
 title: "Drupal 10.2.4+: Cache Metadata Bubbling Is Now Automatic"
 description: "Starting with Drupal 10.2.4, field cache metadata bubbles automatically in templates. The workaround that became doctrine for a decade is finally solved at the core level."
 date: 2024-02-28T13:21:43+01:00
@@ -6,7 +6,7 @@ image: "images/DRUPAL-EL_blue_RGB.png"
 draft: false
 type: "post"
 tags: ["drupal", "drupal10", "drupal11", "performance", "caching", "php"]
--
+---
 
 One of the most frustrating aspects of theming Drupal has historically been managing cache metadata when rendering individual fields in custom templates. For over a decade, this was a known problem with a well-documented workaround. Starting with Drupal 10.2.4 (and continuing through Drupal 11), this problem has been fundamentally solved at the core level.
 
