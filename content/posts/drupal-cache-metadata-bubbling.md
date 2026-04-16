@@ -1,4 +1,4 @@
----
+-
 title: "Drupal 10.2.4+: Cache Metadata Bubbling Is Now Automatic"
 description: "Starting with Drupal 10.2.4, field cache metadata bubbles automatically in templates. The workaround that became doctrine for a decade is finally solved at the core level."
 date: 2024-02-28T13:21:43+01:00
@@ -6,7 +6,7 @@ image: "images/DRUPAL-EL_blue_RGB.png"
 draft: false
 type: "post"
 tags: ["drupal", "drupal10", "drupal11", "performance", "caching", "php"]
----
+-
 
 One of the most frustrating aspects of theming Drupal has historically been managing cache metadata when rendering individual fields in custom templates. For over a decade, this was a known problem with a well-documented workaround. Starting with Drupal 10.2.4 (and continuing through Drupal 11), this problem has been fundamentally solved at the core level.
 
@@ -88,7 +88,7 @@ Your templates just got simpler:
   </div>
 
   <div class="main-content">
-    {{ content.field_body }}
+    {{ content.body }}
   </div>
 
   <aside class="sidebar">
@@ -112,7 +112,7 @@ When you write `{{ content.body }}` in a Twig template, here's the journey your 
 5. **Cache metadata** is extracted from that object and applied to the render array
 6. **Result**: Cache tags bubble to the parent context automatically ✅
 
-This happens transparently—you don't need to write any code or create any workarounds.
+This happens transparently-you don't need to write any code or create any workarounds.
 
 ## The One Exception: Raw Entity Values
 
@@ -126,7 +126,7 @@ All of these automatically bubble cache metadata:
 {# Using the content array - automatic cache bubbling #}
 {{ content.field_name }}
 {{ content.field_image }}
-{{ content.field_body }}
+{{ content.body }}
 ```
 
 **❌ Manual (Still Needs Cache Metadata Filter)**
@@ -147,7 +147,7 @@ Use the [twig_tweak](https://drupal.org/project/twig_tweak) module's `cache_meta
 ## Timeline: Why This Mattered
 
 | Version | Automatic Cache Bubbling? | Workarounds Needed? |
-|---------|---------------------------|---------------------|
+|-|-|-|
 | Drupal 8 | ❌ No | ✅ Yes |
 | Drupal 9 | ❌ No | ✅ Yes |
 | Drupal 10.0–10.2.3 | ❌ No | ✅ Yes |
@@ -158,23 +158,23 @@ Use the [twig_tweak](https://drupal.org/project/twig_tweak) module's `cache_meta
 
 **Drupal 8-10 pattern:**
 ```twig
-{{ content.field_body }}
-{{ content|without('field_body') }} {# Required workaround #}
+{{ content.body }}
+{{ content|without('body') }} {# Required workaround #}
 ```
 
 **Drupal 10.2.4+ pattern:**
 ```twig
-{{ content.field_body }} {# That's all! #}
+{{ content.body }} {# That's all! #}
 ```
 
 ## Migration: Cleaning Up Your Templates
 
 If you're upgrading to Drupal 10.2.4 or later (including Drupal 11):
 
-1. **Audit your templates** — Look for `content|without()` patterns
-2. **Remove unnecessary filters** — If you were using them only for cache propagation, they're no longer needed
-3. **Keep twig_tweak for raw access** — You'll still need it if you use `{{ node.field_name }}` patterns
-4. **Test cache invalidation** — Verify that cache tags still bubble correctly (they will!)
+1. **Audit your templates** - Look for `content|without()` patterns
+2. **Remove unnecessary filters** - If you were using them only for cache propagation, they're no longer needed
+3. **Keep twig_tweak for raw access** - You'll still need it if you use `{{ node.field_name }}` patterns
+4. **Test cache invalidation** - Verify that cache tags still bubble correctly (they will!)
 
 ## A Broader Initiative
 
@@ -201,7 +201,7 @@ Result: Cache metadata is now automatic across all rendering systems in Drupal 1
 - [Related JSON:API Issue #3252278: Computed field cache metadata in JSON:API](https://drupal.org/i/3252278)
 
 **Historical Reference:**
-- [PreviousNext (2017): Ensuring Drupal 8 Block Cache Tags Bubble Up to Page Cache](https://www.previousnext.com.au/blog/ensuring-drupal-8-block-cache-tags-bubble-page-cache) — The seminal guide to cache tag debugging and workarounds (now solved by core in 10.2.4+)
+- [PreviousNext (2017): Ensuring Drupal 8 Block Cache Tags Bubble Up to Page Cache](https://www.previousnext.com.au/blog/ensuring-drupal-8-block-cache-tags-bubble-page-cache) - The seminal guide to cache tag debugging and workarounds (now solved by core in 10.2.4+)
 
 **Tools & Modules:**
-- [twig_tweak Module](https://drupal.org/project/twig_tweak) — For raw entity value access
+- [twig_tweak Module](https://drupal.org/project/twig_tweak) - For raw entity value access
