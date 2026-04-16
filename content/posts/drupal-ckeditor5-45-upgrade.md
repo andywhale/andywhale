@@ -43,20 +43,34 @@ For module maintainers, this meant real work to ensure their modules stayed comp
 If you're running a site with contributed CKEditor modules, you need to know which ones require updates before you can upgrade to Drupal 10.5 or 11.2. Here are the modules reported as affected:
 
 **Now updated and compatible:**
-- **Linkit** (7.0.5+) - Decorator and link attribute logic updated
-- **Editor Advanced Link** (2.3.0+ for CKEditor 45, 2.2.7 for older versions) - Fixed view restructuring and button class removal
-- **CKEditor Abbreviation** - Compatibility fix released
-- **Anchor Link** - Icon updates and library support added
-- **CKEditor iFrame** - CKEditor 5 45.2.0 support added
-- **CKEditor Media Resize** - Compatibility fix for CKEditor 45.x
-- **Editor File** - Updated to replace `.once()` usage for Drupal 10.5
-- **CKEditor Responsive Table** - Compatibility fix for CKEditor 45 changes
+
+- **[Linkit](https://drupal.org/project/linkit)** (7.0.5+) - A powerful module for creating intelligent links with autocomplete suggestions. Essential for content editors needing smart internal linking. Decorator and link attribute logic updated for CKEditor 45 compatibility.
+
+- **[Editor Advanced Link](https://drupal.org/project/editor_advanced_link)** (2.3.0+ for CKEditor 45, 2.2.7 for older versions) - Extends the link dialog with advanced options like target, title attributes, and custom CSS classes. Invaluable for sites needing more control over link behaviour. Fixed view restructuring and button class removal.
+
+- **[CKEditor Abbreviation](https://drupal.org/project/ckeditor_abbreviation)** - Allows content editors to add abbreviation markup, improving accessibility and semantic HTML. Compatibility fix released.
+
+- **[Anchor Link](https://drupal.org/project/anchor_link)** - Provides anchor link creation within CKEditor, useful for creating table of contents and in-page navigation. Icon updates and library support added.
+
+- **[CKEditor iFrame](https://drupal.org/project/ckeditor_iframe)** - Enables iframe embedding directly within CKEditor, helpful for embedding external content. CKEditor 5 45.2.0 support added.
+
+- **[CKEditor Media Resize](https://drupal.org/project/ckeditor_media_resize)** - Allows editors to resize embedded media within the editor. Improves the editing experience when working with images and videos. Compatibility fix for CKEditor 45.x.
+
+- **[Editor File](https://drupal.org/project/editor_file)** - Provides file browser integration in CKEditor for better file management. Updated to replace `.once()` usage for Drupal 10.5 compatibility.
+
+- **[CKEditor Responsive Table](https://drupal.org/project/ckeditor_responsive_table)** - Adds responsive table functionality to CKEditor, important for mobile-friendly content. Compatibility fix for CKEditor 45 changes.
+
+- **[Footnotes](https://drupal.org/project/footnotes)** - Allows editors to add footnotes to content, essential for academic and reference sites. Compatibility updates being developed for CKEditor 5 45 support.
 
 **Still in progress:**
-- **Embedded Content** - Icon rename compatibility being addressed
-- **IMCE** - Browse-files button visibility issue with new Insert/Update button
-- **CKEditor Link Styles** - CKEditor 45+ compatibility work ongoing
-- **Entity Embed** - Widget toolbar icon issues still being reviewed
+
+- **[Embedded Content](https://drupal.org/project/embedded_content)** - Allows embedding of various content types within the editor. Icon rename compatibility being addressed.
+
+- **[IMCE](https://drupal.org/project/imce)** - A comprehensive file browser that integrates with CKEditor for media management. Critical for content-heavy sites. Browse-files button visibility issue with new Insert/Update button.
+
+- **[CKEditor Link Styles](https://drupal.org/project/ckeditor_link_styles)** - Provides predefined link style classes for consistent link styling across content. CKEditor 45+ compatibility work ongoing.
+
+- **[Entity Embed](https://drupal.org/project/entity_embed)** - Embeds entities (nodes, media, etc.) directly in rich text fields, creating dynamic, reusable content. Widely used for complex content layouts. Widget toolbar icon issues still being reviewed.
 
 ## Upgrade Strategy for Site Builders
 
