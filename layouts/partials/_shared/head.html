@@ -14,6 +14,7 @@
 	{{ with .Site.Params.logo }}
 	<link rel="icon" href="{{ . | urlize | relURL }}">
 	{{ end }}
+	<link rel="icon" type="image/png" href="{{ "/favicon.png" | relURL }}">
 	<title>{{ .Page.Title }} | {{ .Site.Title }}</title>
 	{{ with .Site.Params.meta.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.meta.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
