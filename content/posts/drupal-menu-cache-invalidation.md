@@ -2,7 +2,7 @@
 title: "The Hidden Cost of Menu Links: Why Your Drupal Site Cache Invalidates on Every Page Save"
 description: "Menu link access checks create unexpected cache invalidations on larger sites. Here's what's happening, why it matters, and what we can do about it."
 date: 2026-04-15T13:21:43+01:00
-image: "images/DRUPAL-EL_blue_RGB.png"
+image: "images/UoL-Menu.png"
 draft: false
 type: "post"
 tags: ["drupal", "performance", "caching", "architecture"]

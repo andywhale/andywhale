@@ -2,7 +2,7 @@
 title: "Upgrading to Drupal 10.5 and 11.2: Navigating the CKEditor 5 v45 Landscape"
 description: "CKEditor 5 v45 brings significant improvements but introduces breaking changes. Here's what site builders and developers need to know to upgrade successfully."
 date: 2026-04-16T13:21:43+01:00
-image: "images/DRUPAL-EL_blue_RGB.png"
+image: "images/Drupal-CKEditor.png"
 draft: false
 type: "post"
 tags: ["drupal", "drupal10", "drupal11", "ckeditor", "upgrade"]
