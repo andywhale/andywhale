@@ -15,7 +15,7 @@ copyright = "Andy Whale 2019"
 [params.index]
   picture = "images/glasses-icon.png"
   title = "andy whale"
-  subtitle = "Development lead at Numiko (Symfony, PHP, Python, Javascript, Drupal), Game Dev enthusiast (Unity, C#), problem solver, questioner of things, keen photographer, struggling guitarist, juggler, dad ..."
+  subtitle = "Dad, Development lead at Numiko (Symfony, PHP, Python, Javascript, Drupal), Game Dev enthusiast (Unity, C#), problem solver, questioner of things, keen photographer, board game enthusiast, struggling guitarist, juggler ..."
   mdtext = '''
 ### web developer
 By day I write websites for Numiko where we endeavour to work for clients
@@ -37,7 +37,7 @@ later due to the ideas becoming either unplayable or ludicrously complex.
 '''
   mdtext3 = '''
 ### published photographer
-I shoot a Nikon D600 and love to take time out to take photos, but it really is just a hobby. Although one of my viking shots has been used in a book ;-)
+I shoot a Fujifilm XT3 and love to take time out to take photos, but it really is just a hobby. Although one of my viking shots has been used in a book ;-)
 '''
   alertbar = false
 
