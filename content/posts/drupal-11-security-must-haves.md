@@ -1,8 +1,8 @@
 ---
-title: "Security-Focused Drupal 11: Essential Modules and Configuration for Production Sites"
-description: "Drupal 11 is secure by default, but production sites need more. Here are the essential security modules and configurations that should be on every site's checklist before launch."
+title: "Security-Focused Drupal 11: A Few Essential Modules and Configuration for Production Sites"
+description: "Drupal 11 is secure by default, but production sites need more. Here are some essential security modules and configurations that should be on every site's checklist before launch."
 date: 2026-04-18T13:21:43+01:00
-image: "images/DRUPAL-EL_blue_RGB.png"
+image: "images/drupal-security-padlock.svg"
 draft: false
 type: "post"
 tags: ["drupal", "drupal11", "security", "modules", "authentication", "compliance"]
