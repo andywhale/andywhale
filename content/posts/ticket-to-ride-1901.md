@@ -2,7 +2,7 @@
 title: "Ticket to Ride: 1901"
 description: "After completing the Legends of the West campaign, the 1901 standalone game unlocks - here's how we play it, our house rules, and some expansion ideas."
 date: 2026-06-01T09:00:00+01:00
-image: "images/ticket-to-ride-1901.png"
+image: "images/ttr-board-game.jpg"
 draft: false
 type: "post"
 tags: ["boardgames", "tickettoride", "legendsofthewest", "1901"]
